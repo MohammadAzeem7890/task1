@@ -18,6 +18,7 @@ class CartListScreen extends StatelessWidget {
           borderRadius: BorderRadius.circular(30),
         ),
         child: FloatingActionButton(
+          elevation: 0,
           onPressed: (){
             Get.to(CartListScreen());
           },
